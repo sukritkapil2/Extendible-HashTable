@@ -158,7 +158,12 @@ public class WelcomeForm extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+        DemoForm df = new DemoForm();
+        df.setVisible(true);
+        df.pack();
+        df.setLocationRelativeTo(null);
+        df.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
